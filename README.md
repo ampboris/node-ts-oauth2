@@ -1,7 +1,6 @@
 # node-ts-oauth2
 
-## setup new project
-
+## setup new project (skip this if cloning repo)
 * setup project
 ```
 › npm init -y
@@ -26,14 +25,14 @@ console.log("Hello, TypeScript!");
 ```
 › npm start
 ```
-
+* Install needed packages
 ```
 npm install axios
 npm install @types/axios --save-dev
 npm install jsrsasign
 ```
 
-## setup from github
+## clone from github
 * clone repo
 * npm i
 * npm start or npm run start
