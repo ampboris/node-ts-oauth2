@@ -30,6 +30,14 @@ console.log("Hello, TypeScript!");
 ```
 npm install axios
 npm install @types/axios --save-dev
+npm install jsrsasign
 ```
 
 ## setup from github
+* clone repo
+* npm i
+* npm start or npm run start
+
+## test oauth
+* fill in required values in config.ts
+* npm run auth
