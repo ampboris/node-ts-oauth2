@@ -1,5 +1,11 @@
 export default function getConfig() {
     return {
+        "publicKeyPem": `
+        -----BEGIN PUBLIC KEY-----
+        MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO+lvpQYLRRdHvj2gPJvmjVOP0niO
+        d/w4adJjkBveeHghH/6nxIQl5i3l/uXrcZ7+fr/lYYzxMyfGmbax4V8Rhw==
+        -----END PUBLIC KEY-----
+        `,
         privateKey:
             '-----BEGIN RSA PRIVATE KEY-----\n' +
             '-----END RSA PRIVATE KEY-----\n',
